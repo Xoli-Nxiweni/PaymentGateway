@@ -27,7 +27,7 @@ const Pay = ({ amount }) => {
 
         <View style={styles.payWrapper}>
         <TouchableOpacity style={styles.payButton} onPress={()=> paystackWebViewRef.current.startTransaction()}>
-          <Text style={styles.buttonText}>{'Pay'}</Text>
+          <Text style={styles.buttonText}>{'Checkout'}</Text>
         </TouchableOpacity>
         </View>
       </View>
